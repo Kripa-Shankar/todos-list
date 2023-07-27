@@ -1,0 +1,254 @@
+.container {
+    display: flex;
+    min-height: 20px;
+    padding: 20px;
+    gap: 40px;
+    justify-content: space-between;
+
+
+}
+
+.box {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 3px solid #fff;
+    padding: 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#nav-box-1 {
+    border-top-color: rgb(220, 213, 213);
+}
+
+#nav-box-2 {
+    border-top-color: blue;
+}
+
+#nav-box-3 {
+    border-top-color: violet;
+}
+
+#nav-box-4 {
+    border-top-color: rgb(78, 243, 45);
+}
+
+.open-task {
+    display: flex;
+    flex-direction: column;
+    min-height: 20px;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+head-name {
+    font-weight: 800;
+}
+
+.date {
+    color: red;
+    margin: -20px 0px;
+}
+
+.tasks {
+    display: flex;
+    gap: 5px;
+    padding-top: 30px;
+    color: grey;
+    font-size: 12px;
+}
+
+.newTask {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 0px;
+    color: grey;
+}
+
+
+#sub-task {
+    padding: 3px;
+}
+
+#new-task {
+    padding: 8px;
+    font-size: 12px;
+}
+
+/* Css for created elements in script */
+
+input[type="text"]::placeholder {
+    color: lightgray;
+    font-size: 17px;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+
+}
+
+
+#save-button {
+    background-color: rgb(67, 155, 238);
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+    margin-right: 6px;
+    margin-top: 28px;
+    float: right;
+}
+
+.input-div {
+    border: 1.5px solid blue;
+    width: 315px;
+    height: 105px;
+    margin: 18px;
+
+}
+
+#input {
+    border: #fff;
+    width: 280px;
+    margin: 10px 5px;
+
+}
+
+
+
+/* Style for Login page */
+
+
+body {
+    /* background-color: rgb(130, 28, 224);  */
+}
+
+.full-section {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(145, 8, 236);
+}
+
+.header-sec {
+
+    position: relative;
+    background-color: rgb(248, 242, 242);
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+}
+
+
+.signup-link {
+    position: absolute;
+    top: 0;
+    right: 6%;
+    text-decoration: none;
+    padding: 10px;
+
+
+}
+
+.signup-btn {
+    background-color: rgb(101, 86, 233);
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 6px;
+    width: 75px;
+    height: 28px;
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+}
+
+.Box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 415px;
+    height: 325px;
+    border: 5px;
+    margin: 152px 550px;
+    border-radius: 15px;
+    /* text-align: center; */
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+
+}
+
+h2 {
+    margin-left: 120px;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+}
+
+.login-div a {
+    margin-left: 90px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+
+.login-btn {
+    background-color: rgb(101, 86, 233);
+    width: 330px;
+    height: 37px;
+    margin-top: 18px;
+    border-radius: 10px;
+    color: white;
+    border-color: white;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+.form-group {
+    margin-left: 50px;
+    padding: 8px 0;
+    position: relative;
+
+}
+
+.link-style {
+    position: absolute;
+    top: 56%;
+    right: 50px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.form-control {
+    width: 320px;
+    height: 32px;
+    border-radius: 10px;
+
+
+}
+
+input::placeholder {
+    padding-left: 22px;
+}
+
+.env-lock {
+    position: absolute;
+    top: 39px;
+    left: 5px;
+}
