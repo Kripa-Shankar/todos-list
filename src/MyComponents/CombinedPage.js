@@ -1,14 +1,17 @@
-import React from "react";
-import Header from "./Header";
-import Box from "./Box";
 
+
+
+import React from 'react'
+import Header from './Header'
+import Box from './Box'
 const CombinedPage = () => {
-  return (
-    <>
-      <Header />
-      <Box />
-    </>
-  );
-};
+    return (
+        <>
+            <Header />
+            <Box />
+        </>
+    )
+}
 
-export default CombinedPage;
+export default CombinedPage
+
